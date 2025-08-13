@@ -37,7 +37,9 @@ Primera gramatica era practicamente un polindromo de numeros binarios, osea que 
 
 ### Gramatica 2:
 La segunda gramtica era que su abecedario era (a,b), pero con condicion de que a podia ser de 0 a muchos a* y b minimo tenia que haber 1 **b+**.  a*b+=a+1
-file:///home/ubuntu/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202025-08-12%2021-28-57.png
+En este ejemplo tuve un problema en la parte lexica osea flex, si lo arreglo cambio esto si no puesss.
+<img width="1317" height="341" alt="image" src="https://github.com/user-attachments/assets/1692ce6b-c32a-41e4-90ba-51056c58b284" />
+
 
 ### Gramatica 3:
 La tercera era al parecida a la segunda gramatica con el ligero cambio de que tanto a como b tenian que se de 1 a varios osea minimo 1 de cada 1 y siempre tenia que haber un b mas que a. **a+ b+=a+1**  
