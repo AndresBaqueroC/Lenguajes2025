@@ -2,29 +2,24 @@
 trabajos lenguajes
 ## Descripción
 Este repositorio tiene los ejemplos del pdf 'Flex__bizon',los ejemplos 1-1,1-2,1-3,1-4 y 1-5 ejecutables, hechos mediante flex, como analisador lexico, siguiendo pasos que dicen en el pdf.
-
 ## Contenido
-- ejemplo 1-1
-- ejemplo 1-2
-- ejemplo 1-3
-- ejemplo 1-4
-- ejemplo 1-5
-(solucion de ejercicios propuestos docente)
-- Sejercicio 
-- Sejercicio6
+- Taller 1
+- Taller 2
+- Taller 3
+  
+### Taller 3
+## Descripcion:
+Implementacion de ejercicio propuesto de automata finito determinista, en el zip de Automata cuenta con codigo ejecutable en Python y implementacion en Bison y flex, obviamente con logica para la parte lexica y del parsel pàra que funcione.
+Imagen de Guia Visual de programa Jflap
+cadena: 1000001
+<img width="674" height="467" alt="image" src="https://github.com/user-attachments/assets/bba26dfe-ab5c-46f4-bdb5-07c02581ac32" />
 
-## Como ejecutar?
-- Principalmente tener Flex y Bison: en caso de no:  **'sudo apt install flex bison'** 
-- Abrir terminal, llevar a direccion de carpetas cd 'ruta'.
+Cadena:1000001
+<img width="674" height="467" alt="image" src="https://github.com/user-attachments/assets/9b332163-780a-4613-8b35-b47dda270b8a" />
 
-# para ejecutar './nombre definido':
-- 1-1:'**./contador** ' 
-- 1-2:'**./traducir.l**'
-- 1-3:'**./tokens.l**'
-- 1-4:'**./Ejemplo1-4.l**'
-- 1-5:'**./calculadora**'
-- Sejercicio:'**./calculadoraexa**'
-- Sejercicio6:'**./a.out**':flex   '**./Ccontador**':C
+# Ejecucion en C y Py
+<img width="1822" height="206" alt="image" src="https://github.com/user-attachments/assets/01259fba-bc5b-4a46-b345-6e5e3353944e" />
+
 
 # Taller2
 ## Descripcion: 
@@ -52,3 +47,29 @@ Esta tercera gramatica solo aceptaba abb o ab.  **a+b+**
 ### Gramatica 5:
 El quinto la condicion principal es que iniciara con a y terminara en b minimo 1 de cada uno osea **a+ b+**, pero tambien con una variante (ab)* pues podria ser de 0 a verios.
 <img width="1462" height="303" alt="Captura desde 2025-08-12 21-35-11" src="https://github.com/user-attachments/assets/3fe8f76b-4c85-402f-95d0-bd6b72ccee45" />
+
+
+### Taller 1
+## Contenido
+- ejemplo 1-1
+- ejemplo 1-2
+- ejemplo 1-3
+- ejemplo 1-4
+- ejemplo 1-5
+(solucion de ejercicios propuestos docente)
+- Sejercicio 
+- Sejercicio6
+
+## Como ejecutar?
+- Principalmente tener Flex y Bison: en caso de no:  **'sudo apt install flex bison'** 
+- Abrir terminal, llevar a direccion de carpetas cd 'ruta'.
+
+# para ejecutar './nombre definido':
+- 1-1:'**./contador** ' 
+- 1-2:'**./traducir.l**'
+- 1-3:'**./tokens.l**'
+- 1-4:'**./Ejemplo1-4.l**'
+- 1-5:'**./calculadora**'
+- Sejercicio:'**./calculadoraexa**'
+- Sejercicio6:'**./a.out**':flex   '**./Ccontador**':C
+
