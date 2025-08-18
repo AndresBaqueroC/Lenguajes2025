@@ -9,7 +9,7 @@ Este repositorio tiene los ejemplos del pdf 'Flex__bizon',los ejemplos 1-1,1-2,1
   
 # Taller 3
 ### Descripcion:
-Implementacion de ejercicio propuesto de automata finito determinista, en el zip de Automata cuenta con codigo ejecutable en Python y implementacion en Bison y flex, obviamente con logica para la parte lexica y del parsel pàra que funcione.
+Implementacion de ejercicio propuesto de automata finito determinista, en el zip de Automata cuenta con codigo ejecutable en Python y implementacion en Bison y flex, obviamente con logica para la parte lexica y del parsel pàra que funcione.  No estoy seguro de si deberia documentar los codigos asi que comence a hacerlo por si acaso
 
 Imagen de Guia Visual de programa Jflap
 
