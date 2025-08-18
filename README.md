@@ -13,15 +13,15 @@ Implementacion de ejercicio propuesto de automata finito determinista, en el zip
 
 Imagen de Guia Visual de programa Jflap
 
-cadena: 1000001
+#### cadena: 1000001
 
 <img width="674" height="467" alt="image" src="https://github.com/user-attachments/assets/bba26dfe-ab5c-46f4-bdb5-07c02581ac32" />
 
-Cadena:1000001
+#### Cadena:1000001
 
 <img width="674" height="467" alt="image" src="https://github.com/user-attachments/assets/9b332163-780a-4613-8b35-b47dda270b8a" />
 
-# Ejecucion en C y Py
+### Ejecucion en C y Py
 
 <img width="1822" height="206" alt="image" src="https://github.com/user-attachments/assets/01259fba-bc5b-4a46-b345-6e5e3353944e" />
 
