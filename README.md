@@ -11,7 +11,7 @@ Este repositorio tiene los ejercicios realizados en el primer corte de la ametia
 
 # Taller ANTLR Calculadora 
 ### Descripcion:
-Por cuestion de orden mas que nada lo separe por carpetas, una para java y la otra para PYTHON,por eso para este caso al ejecutar en py uso un ambiete o entorno virtual.
+Este taller era realizar principalmente un paso a paso basado en el pdf que nos facilito el profesor de 'The Definitive ANTLR 4 Reference' para crear una calculadora basica,(este taller se me complico porque al principio no entendia el funcionamiento del antlr), despues de hacer la calculadora basica se le fue implementando mas 'funciones' tanto para JAVA como para PYTHON. Por cuestion de orden mas que nada lo separe por carpetas, una para java y la otra para PYTHON,por eso para este caso al ejecutar en py uso un ambiete o entorno virtual.
 ### Instrucciones para ejecurtar
 1. Principalmente despues de descargar el zip, descomprimir y mandar la carpeta a ruta donde este el antlr-4..complete.jar.  En mi caso era
 ```bash
