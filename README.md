@@ -34,6 +34,7 @@ mv CalculadoraEjerciciosantlr/ antlr-4.13.0-complete/CalculadoraEjercicios/
    ```bash
    javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java
    ```
+   para ejecutar:
    ```bash
    java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt
    ```
