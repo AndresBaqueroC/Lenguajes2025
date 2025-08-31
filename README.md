@@ -13,8 +13,13 @@ Este repositorio tiene los ejemplos del pdf 'Flex__bizon',los ejemplos 1-1,1-2,1
 Por cuestion de orden mas que nada lo separe por carpetas, una para java y la otra para PYTHON,por eso para este caso al ejecutar en py uso un ambiete o entorno virtual.
 ### Instrucciones para ejecurtar
 1. Principalmente despues de descargar el zip, descomprimir y mandar la carpeta a ruta donde este el antlr-4..complete.jar.  En mi caso era
-  **cd Escritorio/antlr-4.13.0-complete/**
+```bash
+cd Escritorio/antlr-4.13.0-complete
+```
 2. En este 2 es poner la carpeta de paso CalculadoraEjerciciosantlr en esa ruta anterior.
+ ```bash
+mv CalculadoraEjerciciosantlr/ antlr-4.13.0-complete/CalculadoraEjercicios/
+ ```
 3. Decidimos cual queremos ejecutary ponemos la ruta
    **Caso java**
    ```bash
