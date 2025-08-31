@@ -1,7 +1,8 @@
 # Lenguajes2025
 trabajos lenguajes
 ## Descripción
-Este repositorio tiene los ejemplos del pdf 'Flex__bizon',los ejemplos 1-1,1-2,1-3,1-4 y 1-5 ejecutables, hechos mediante flex, como analisador lexico, siguiendo pasos que dicen en el pdf.
+Este repositorio tiene los ejercicios realizados en el primer corte de la ametia de lenguajes. Los trabajos solicitadops como del pdf 'Flex__bizon',los ejemplos 1-1,1-2,1-3,1-4 y 1-5 ejecutables, hechos mediante flex, como analisador lexico, siguiendo pasos que dicen en el pdf.  Autoamtas usando flex, bison, implementacion en py, y antlr calculadora.
+
 ## Contenido
 - Taller 1
 - Taller 2
