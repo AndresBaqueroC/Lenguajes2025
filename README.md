@@ -6,7 +6,32 @@ Este repositorio tiene los ejemplos del pdf 'Flex__bizon',los ejemplos 1-1,1-2,1
 - Taller 1
 - Taller 2
 - Taller 3
-  
+- Taller antl4 Calculadora
+
+# Taller ANTLR Calculadora 
+### Descripcion:
+Por cuestion de orden mas que nada lo separe por carpetas, una para java y la otra para PYTHON,por eso para este caso al ejecutar en py uso un ambiete o entorno virtual.
+### Instrucciones para ejecurtar
+1. Principalmente despues de descargar el zip, descomprimir y mandar la carpeta a ruta donde este el antlr-4..complete.jar.  En mi caso era
+  **cd Escritorio/antlr-4.13.0-complete/**
+2. En este 2 es poner la carpeta de paso CalculadoraEjerciciosantlr en esa ruta anterior.
+3. Decidimos cual queremos ejecutary ponemos la ruta
+   **Caso java**
+   'cd CalculadoraEjerciciosantlr/javaCalcula'.
+   El zip ya tiene los analizadores pero en caso tal es:
+   'antlr4 -no-listener -visitor LabeledExpr.g4'  Tener en cuenta que ya tiene el alias
+   Para la compilacion de los archivos Java seria:
+   **'javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java'**
+   ```bash
+# Instalar dependencia
+curl -sL https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/install.sh -o install.sh
+bash install.sh
+
+
+
+  **JAVA:** 'java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt'
+
+   
 # Taller 3
 ### Descripcion:
 Implementacion de ejercicio propuesto de automata finito determinista, en el zip de Automata cuenta con codigo ejecutable en Python y implementacion en Bison y flex, obviamente con logica para la parte lexica y del parsel pàra que funcione.  No estoy seguro de si deberia documentar los codigos asi que comence a hacerlo por si acaso
