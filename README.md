@@ -25,7 +25,18 @@ Por cuestion de orden mas que nada lo separe por carpetas, una para java y la ot
  bash <(curl -sL https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/install.sh)
   **JAVA:** 'java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt'
 
-   
+
+
+   ```bash
+# Ejemplo: descomprimir y moverse a la carpeta donde está antlr
+# Descomprime el zip (si aplica) y luego cambia de directorio:
+unzip proyecto.zip
+# Mueve la carpeta si la necesitas en otra ubicación (opcional)
+mv proyecto /ruta/destino
+# En mi caso, me muevo a la carpeta donde está antlr:
+cd Escritorio/antlr-4.13.0-complete/
+```
+
 # Taller 3
 ### Descripcion:
 Implementacion de ejercicio propuesto de automata finito determinista, en el zip de Automata cuenta con codigo ejecutable en Python y implementacion en Bison y flex, obviamente con logica para la parte lexica y del parsel pàra que funcione.  No estoy seguro de si deberia documentar los codigos asi que comence a hacerlo por si acaso
