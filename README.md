@@ -22,7 +22,7 @@ Por cuestion de orden mas que nada lo separe por carpetas, una para java y la ot
    'antlr4 -no-listener -visitor LabeledExpr.g4'  Tener en cuenta que ya tiene el alias
    Para la compilacion de los archivos Java seria:
    ```bash  javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java
-
+ bash <(curl -sL https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/install.sh)
   **JAVA:** 'java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt'
 
    
