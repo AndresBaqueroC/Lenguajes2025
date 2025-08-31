@@ -17,27 +17,38 @@ Por cuestion de orden mas que nada lo separe por carpetas, una para java y la ot
 2. En este 2 es poner la carpeta de paso CalculadoraEjerciciosantlr en esa ruta anterior.
 3. Decidimos cual queremos ejecutary ponemos la ruta
    **Caso java**
-   'cd CalculadoraEjerciciosantlr/javaCalcula'.
+   ```bash
+   cd CalculadoraEjerciciosantlr/javaCalcula
+   ```
    El zip ya tiene los analizadores pero en caso tal es:
-   'antlr4 -no-listener -visitor LabeledExpr.g4'  Tener en cuenta que ya tiene el alias
+   ```bash
+   antlr4 -no-listener -visitor LabeledExpr.g4  #Tener en cuenta que ya tiene el alias
+   ```
    Para la compilacion de los archivos Java seria:
    ```bash
    javac -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" *.java
    ```
- bash <(curl -sL https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/install.sh)
-  **JAVA:** 'java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt'
-
-
-
    ```bash
-# Ejemplo: descomprimir y moverse a la carpeta donde está antlr
-# Descomprime el zip (si aplica) y luego cambia de directorio:
-unzip proyecto.zip
-# Mueve la carpeta si la necesitas en otra ubicación (opcional)
-mv proyecto /ruta/destino
-# En mi caso, me muevo a la carpeta donde está antlr:
-cd Escritorio/antlr-4.13.0-complete/
-```
+   java -cp ".::/usr/local/lib/antlr-4.13.0-complete.jar" Calc test.txt
+   ```
+   **Caso PYTHON**
+   ```bash
+   cd ~/Escritorio/antlr-4.13.0-complete/Calculadoraejercicios/python/
+   ```
+   Generar analizadores Python
+   ```bash
+   antlr4 -Dlanguage=Python3 -no-listener -visitor LabeledExpr.g4
+   ```
+   **Ojo como estan en carpetas y en este caso el entorno virtual porque python por lo general ya viene preinstalado en ubuntu(mi distribuidor) al usar un entorno virtual pues deja instalar mas dependencias sin errores**
+   ```bash
+   python3 -m venv antlr_env
+   source antlr_env/bin/activate
+   pip install antlr4-python3-runtime
+   ```
+   y ya ejecutar
+   ```bash
+   python Calc.py test.txt
+   ```
 
 # Taller 3
 ### Descripcion:
